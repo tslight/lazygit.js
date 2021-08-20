@@ -1,0 +1,10 @@
+{
+  "github": {
+    "destination": "/path/to/location/for/github/repos",
+    "token": "GITHUB_TOKEN"
+  },
+  "gitlab": {
+    "destination": "/path/to/location/for/gitlab/projects",
+    "token": "GITLAB_TOKEN"
+  }
+}

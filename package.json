@@ -1,0 +1,28 @@
+{
+  "name": "lazygitlab",
+  "version": "0.0.1",
+  "description": "Get slack & be a lazy git...",
+  "main": "lazygitlab.js",
+  "scripts": {
+    "lazygitlab": "node lazygitlab.js",
+    "lazygithub": "node lazygithub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/tspub/js/lazygit"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "lgl": "./lazygitlab.js",
+    "lgh": "./lazygithub.js",
+    "lazygitlab": "./lazygitlab.js",
+    "lazygithub": "./lazygithub.js"
+  },
+  "author": "Toby Slight",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "",
+    "node-cmd": "",
+    "yargs": ""
+  }
+}
